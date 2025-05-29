@@ -33,7 +33,7 @@ body {
 
 .left-column, .right-column {
     flex: 1;
-    padding: 20px;
+    padding: 15px;
     letter-spacing: 0.5px;
 }
 
@@ -47,7 +47,7 @@ body {
 .right-column {
     display: flex;
     flex-direction: column;
-    /* justify-content: cnter; */
+    /* justify-content: center; */
     background-color: #fff;
     color: rgb(26, 24, 62);
     border-radius: 25px 0 0;
@@ -124,13 +124,9 @@ a {
     .container {
         flex-direction: column;
     }
-
     .left-column {
         display: none;
     }
-    /* .right-column{
-        width: 100vw;
-    } */
     .contained {
         background-color: #fff;
         width: 100vw;
@@ -138,10 +134,9 @@ a {
     }
     div.form {
         width: 100%;
-
         margin: 20px;
     }
-    .black-logo {
-        display: block;
+    .format {
+        width: 85vw !important;
     }
 }
