@@ -83,9 +83,9 @@ body {
 }
 
 
-form {
+div.form {
     width: 50vw;
-    margin: 50px;
+    margin: 80px 120px;
 }
 
 .form-group {
@@ -128,10 +128,20 @@ a {
     .left-column {
         display: none;
     }
-    .right-column{
+    /* .right-column{
         width: 100vw;
-    }
+    } */
     .contained {
         background-color: #fff;
+        width: 100vw;
+        
+    }
+    div.form {
+        width: 100%;
+
+        margin: 20px;
+    }
+    .black-logo {
+        display: block;
     }
 }
