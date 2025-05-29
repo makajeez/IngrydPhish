@@ -33,7 +33,7 @@ body {
 
 .left-column, .right-column {
     flex: 1;
-    /* padding: 20px; */
+    padding: 20px;
     letter-spacing: 0.5px;
 }
 
@@ -47,7 +47,7 @@ body {
 .right-column {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: cnter; */
     background-color: #fff;
     color: rgb(26, 24, 62);
     border-radius: 25px 0 0;
@@ -130,5 +130,8 @@ a {
     }
     .right-column{
         width: 100vw;
+    }
+    .contained {
+        background-color: #fff;
     }
 }
