@@ -7,6 +7,7 @@ html {
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     font-feature-settings: normal;
     font-variation-settings: normal;
+    background-color: rgb(26, 24, 62);
 }
 body {
     font-family: Montserrat, sans-serif;
@@ -24,7 +25,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
-    background: #fff;
+    background-color: rgb(26, 24, 62);
     overflow: hidden;
     /* max-width: 900vw; */
     /* border-radius: 8px; */
@@ -33,7 +34,6 @@ body {
 .left-column, .right-column {
     flex: 1;
     /* padding: 20px; */
-    width: 50vw;
     letter-spacing: 0.5px;
 }
 
@@ -41,8 +41,18 @@ body {
 .left-column {
     background-color: rgb(26, 24, 62);
     position: relative;
+    width: 51vw;
 }
 
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    color: rgb(26, 24, 62);
+    border-radius: 25px 0 0;
+    width: 49vw;
+}
 .left-column::before, .left-column::after {
     content: '';
     position: absolute;
@@ -72,13 +82,6 @@ body {
     font-size: 1.4rem;
 }
 
-.right-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: rgb(26, 24, 62);
-    border-radius: 25px;
-}
 
 form {
     width: 50vw;
